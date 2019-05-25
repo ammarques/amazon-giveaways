@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon GiveAways</title>
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container-contact100" style="background-image:url('images/confetti.png')">
+		<div class="wrap-contact100" style="zoom:70% !important; width: 100% !important; background-color: #EAEDED !important">
+			<form class="contact100-form validate-form" onsubmit="return false" >
+				<div class="wrap-input100 rs1-wrap-input100">
+					<span class="label-input100"></span>
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<div id="queryButton" style="cursor:pointer !important" class="contact100-form-btn">
+							Run
+						</div>
+					</div>
+				</div>
+
+			</form>
+		</div>
+	</div>
+	<div id="modal_wait" style="display:none; position:absolute !important; left:0px; top:0px; z-index:999; background-image:url('images/bg-01.jpg'); width:100% !important; height:100% !important">
+		<div class="wrap-contact100" style="background-color: transparent !important; height: 50px; margin: 25% auto !important; width:200px !important; text-align: center; padding:0px !important; zoom:70% !important"><image src="images/3.gif"/></div>
+	</div>
+	<script>
+    	require('./renderer.js')
+  	</script>
+</body>
+</html>
